@@ -72,7 +72,7 @@
 			.then( (res) => {
 				console.log(res)
 				this.users = res.data
-			})fdfdsd
+			})
 			 */ 
 		},
 	}
