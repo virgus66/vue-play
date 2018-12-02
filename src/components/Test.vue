@@ -14,14 +14,15 @@
 				<hr><br>
 				<button v-on:click="greet('Hello World')">Say Greeting</button>
 				<br><br>
-				<input id="second-input" type='text' v-on:keyup="pressKey" v-on:keyup.enter="enterHit">
+				<input id="second-input" type='text' v-on:keyup="pressKey" v-on:keyup.enter="enterHit"> type and press enter
 
-				<br><br><hr> <br>
+				<br><br><hr><br>
+				Computed object/directive <br><br>
 				<label>First name</label> <input type="text" v-model="user.first_name"> <br><br>
 				<label>Last name</label> <input type="text" v-model="user.last_name"> <br><br>
 				<h3>full name: {{fullName}}</h3>
 
-				<br><br><hr> <br>
+				<hr><br>
 				<h3>{{msg}}</h3>
 
 		</div>
