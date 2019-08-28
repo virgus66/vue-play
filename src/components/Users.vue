@@ -27,7 +27,7 @@
 			return {
 				newUser: {},
 				users: [
-/* 					{
+					{
 						name: 'David Cabala',
 						email: 'david.cabala@gmail.com',
 						contacted: true
@@ -41,7 +41,7 @@
 						name: 'Gair Blair',
 						email: 'Gair.Blair@gmail.com',
 						contacted: true
-					}, */
+					},
 				]
 			}
 		},
